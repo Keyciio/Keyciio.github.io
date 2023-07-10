@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="shortcut icon" href="../images/icono2.png">
+    <link rel="stylesheet" href="../css/Form.css">
+</head>
+<body>
+
+     <form action="destino.php" method="post">
+        <section class="form-registro">
+            <h4>Formulario Registro:</h4>
+            <label for="nombre">Nombre: </label>
+            <input class="controls" type="text" name="nombre" id="name-label" autocomplete="on" placeholder="Ingrese su nombre">
+            <label for="correo">Correo Electronico</label>
+            <input class="controls" type="email" name="correo" id="email-label" autocomplete="on" placeholder="Ingrese su e-mail">
+            <label for="number">Número de Celular</label>
+            <input class="controls" type="tel" name="number" id="number-label" placeholder="Ingrese su Numero de Cel..">
+            <label for=""></label>
+            <label for="coment">Comentarios:</label>
+            <textarea class="controls" name="coment" id="sugerencias" cols="20" rows="4" itemid="coment-label" placeholder="Por favor dejanos tu opinion de la pagina..."></textarea>
+            <input class="boton" type="submit" value="Registrarse" id="submit" >
+            <input class="boton" type="reset" value="Limpiar">
+        </section>
+    </form>    
+</body>
+</html>
